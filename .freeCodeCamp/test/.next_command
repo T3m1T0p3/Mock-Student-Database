@@ -1,3 +1,4 @@
 pg_dump --clean --create --inserts --username=freecodecamp students > students.sql4
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+git add .
