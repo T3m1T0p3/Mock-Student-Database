@@ -2,3 +2,12 @@ pg_dump --clean --create --inserts --username=freecodecamp students > students.s
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
 git add .
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git commit -m "Student databse Project v1"
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+pg_dump --clean --create --inserts --username=freecodecamp students > students.sql
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add .
